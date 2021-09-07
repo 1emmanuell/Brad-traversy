@@ -1,0 +1,1060 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+::after,::before{
+    box-sizing:inherit;
+}
+
+
+
+body{
+    font-family: "Roboto",/*'Franklin Gothic Medium', 'Arial Narrow', Arial, */sans-serif;
+    width: 100%;
+    height: 100%;
+	bottom: 0;
+	top: 0;
+    left: 0;
+    right: 0;
+}
+
+a{
+    text-decoration: none !important;
+    color: white !important;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    background-color: black;
+    color: white;
+    margin-top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    z-index: 1; 
+}
+
+
+
+@media screen and (max-width: 425px){
+#brad-watch{
+
+}
+}
+/**Mobile Query**/
+
+@media screen and (max-width: 425px){
+
+    header{
+         flex-direction: row !important;
+    }
+
+    #welcome{
+        padding-left: 30px !important;
+    }
+    .col-flex{
+        /*width: 95% !important;*/
+        /*margin: 0px 1px !important;*/
+    }
+
+    .navul{
+        display: none !important;
+        width: 100%;
+    }
+
+    .navul.show {
+        display: flex !important;
+    }
+        
+    
+
+    #follow-link{
+        padding-left: 10px !important;
+    }
+
+    #email h3{
+        padding-top: 3rem !important;
+    }
+
+    .brad-watch-btn{
+        padding: 8px 50px !important;
+    }
+
+    #follow-us{
+        font-size: 40px !important;
+    }
+
+    .fab{
+        font-size: 40px !important;
+    }
+
+    #follow-link  .link-btn{
+        padding-left: 20px !important;
+    }
+
+    .creator1{
+        margin: 40px 10px 40px 10px !important;
+    }
+
+    #crash-course-detail{
+        padding-top: 50px !important;
+    }
+
+    #crash-course-detail h3{
+        padding-top: 1rem !important;
+    }
+
+    #suscriber-count {
+        /*height: 55vh !important;*/
+        flex-wrap: wrap !important;
+        font-size: 40px !important;
+    }
+
+    #sponsor-term{
+        padding: 0 0px 0px 35px !important;
+        margin: 90px 0px 90px 0px !important;
+        
+    }
+    
+    #sponsor-email{
+        padding: 0px 0% !important;
+    }
+
+    footer{
+        flex-direction: column !important;
+    }
+
+    #social-lnk{
+        margin-right: 0px !important;
+        justify-content: space-evenly !important;
+    }
+
+    .footer-img{
+        padding-right: 0px !important;
+        padding-right: 0px !important;
+    width: 100px;
+    margin: auto;
+    margin-bottom: 10px;
+    }
+
+    .course-border{
+        margin-left: 10px !important;
+    }
+
+    #sponsor-sub-email p{
+        font-size: .9rem !important;
+    }
+
+    #welcome p{
+        padding-top: 40px !important;
+    }
+
+    #email{
+        height: 45vh !important;
+    }
+
+    #email p{
+        margin-bottom: 3rem !important;
+    }
+
+    .logo{
+        margin-left: 15px !important;
+        width: 150px !important;
+        height: 40px !important;  
+    }
+
+    .hamburger{
+        display: block !important;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 769px){
+    header{
+    flex-direction: column;    
+}
+        .logo{
+            /* OPEN CMMENT LATER margin-left: auto !important;
+            margin-right: auto !important;*/
+        }
+
+        #welcome p{
+            padding-top: 21% !important;
+        }
+
+    #email{
+        height: 40vh !important;
+    }
+
+    #follow-section{
+        height: 30vh !important;
+    }
+
+    /*#suscriber-count{
+        height: 28vh;
+    }*/
+
+    
+    
+}
+
+ 
+.logo{
+    margin-left: 70px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 270px;
+    height: 50px;
+}
+
+nav{
+    margin-top: 28px;
+    margin-bottom: 10px;
+    display: flex;
+    margin-left: auto;
+    
+}
+
+.hamburger {
+    background-color: transparent;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    cursor: pointer; 
+     display: none;
+}
+
+.hamburger:focus {
+    outline: none;
+}
+
+@media only screen and (max-width: 769px){
+    #welcome h2{
+        margin-top: 15px !important;
+    }
+    
+    nav{
+        margin-right: 10px;
+        margin-left: 10px; 
+        margin-top: 10px !important;   
+}
+
+.col-flex{
+   /*margin: 0px 68px  !important;*/
+    /*width: 80% !important;*/
+}
+
+.udemy-course img{
+    height: 70% !important;
+}
+
+.udemy-course p{
+    font-size: 1.3rem;
+}
+
+#email h3{
+    padding-top: 2rem !important;
+}
+}
+
+
+.navul{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+li{
+    padding: 0 19px;
+    font-size: 13px;
+    width: max-content;
+}
+
+a:hover{
+    border-bottom: 0.9px solid white;
+    
+     
+}
+
+.black-logo{
+    display: none;
+}
+
+.youtube-sub{
+    background-color: red;
+    font-family: "Youtube Noto", Roboto, arial,sans-serif;
+    /*border: 1px 0 1px 1px solid black;*/
+    border-radius: 3px 0 0px 3px;
+    padding: 5px 0;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-width: 0;
+    font-size: 13px;
+}
+
+.youtube-sub-span{
+    background-color: white;
+    color: grey;
+    /*border: 1px 1px 1px 0 solid black;*/
+    border-radius: 0px 3px 3px 0;
+    margin-right: px;
+    padding: 5px;
+    border-width: 0;
+    font-size: 13px;
+}
+
+#youtube-btn{
+     
+     margin-right: 50px;
+    margin-bottom: 10px;   
+}
+
+#youtube-btn p{
+    width: max-content;
+}
+
+.yut{
+    font-size: 14px ! important;
+    margin-right: 10px;
+}
+/*main{
+    position: static;
+}*/
+#welcome{
+    background-color: #212529;
+    color: white;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    padding-left: 75px;
+    /*padding-bottom: 210px;*/
+    height: 100vh;
+}
+
+#welcome p{
+    padding-top: 110px;
+    font-size: 1.25rem;
+    margin-top: 0;
+}
+
+#welcome h2{
+    
+    font-size: 5rem;
+    margin-top: 34px;
+    margin-bottom: 24px;
+    
+}
+ 
+/* Media Query */
+
+@media screen and (max-width: 480px) {
+    #welcome h2{
+        font-size: 2.5rem;
+    }
+
+    .email-box{
+        width: 78%;
+        text-align: center;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .email-space{
+    width: 10rem;
+    padding: 1rem 17rem 1rem 1rem;
+    color: rgb(37, 37, 37);
+    border-width: 0;
+    
+    border-radius: 4px 0px 0px 4px;
+    }
+
+    /*#email{
+        height: 47vh;
+    }*/
+}
+
+/* Media Query */
+
+.welcome-border{
+    border-bottom: 10px solid #DF292D;
+    max-width: 79px;
+    padding-top: 1px;
+    margin-top: 1.5rem;
+}
+
+#email{
+    background-color: #DF292D;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    height: 45vh;
+}
+
+#email h3{
+    padding-top: 5rem;
+    font-size: 1em;
+}
+
+.email-btn{
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    border-width: 0;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+}
+
+.email-space{
+    padding: 0 0 0 1rem;
+    color: rgb(37, 37, 37);
+    border-width: 0;
+    width: 30rem;
+    border-radius: 4px 0px 0px 4px;
+}
+.email-box{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+     
+    margin: auto;
+     
+}
+
+#email p{
+    padding-bottom: 5rem;
+    font-size: 15px;
+    letter-spacing: 0.125em;
+    margin-bottom: 1rem;
+}
+
+.email-span{
+    margin-left: 0px;
+}
+
+#course-discount h3{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 2rem;
+    font-weight: 100 !important;
+    
+}
+
+.course-border{
+    border-right: 2px solid white;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+#udemy-courses{
+    background-color: rgb(66, 66, 66);
+    /*padding-bottom: 20px;*/
+    margin-left: 0px;
+    margin-bottom: 10px; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+   /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;*/
+}
+
+.udemy-course{
+    margin: 0 0px;
+    
+
+    /*padding: 10px 200px 200px 0;*/
+   width:   100%;
+    height: 100%;
+}
+
+.udemy-course img{
+    width: 100%;
+    height: 193.564px;
+    margin-bottom: -4px;
+     
+}
+
+.enroll{
+    background-color: #0baf4e;
+    cursor: pointer;
+    position: relative;
+    width: fit-content;
+    padding: 15px 21px;
+    
+    /*margin-left: 408.5px;*/
+    margin-top: -47px;
+    margin-left: auto;
+ }
+
+ /*.bottom{
+     margin-right: -10px;
+     
+ }*/
+
+ .udemy-course p{
+     padding: 28px 28px;
+     text-align: center;
+     color: white;
+     font-size: 1.1rem;
+     
+ }
+
+ .p-grey{
+     background-color: grey;
+     margin-bottom: 9px;
+ }
+ .p-black{
+    background-color: black !important;
+    top: 0;
+ }
+
+ .p-no-padding{
+     margin-bottom: 0px !important;
+ }
+
+.p-border-right{
+    border-bottom: 1px solid #DF292D;
+    
+} 
+
+#brad-info{
+    background-color: white;
+    margin-top: -10px;
+    bottom: 0px;
+    text-align: center;
+    /*display: flex;*/
+    
+}
+
+#about-header h3{
+    display: block !important;
+}
+
+/* Media Query */
+/*
+@media screen and (max-width: 780px){
+    #brad-it{
+        display: block;
+        margin: 0 auto;
+            
+        }
+}*/
+
+/* Media Query */
+
+#brad-it{
+display: flex;
+    flex-direction: row;
+    
+    padding: 0px 30px;
+
+}
+
+@media screen and (max-width: 980px){
+    #brad-it{
+        flex-wrap: wrap;      
+    }
+
+    #brad-text{
+        margin: 0 auto 0 auto !important;
+    }
+}
+
+#brad-intro{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-weight: 500;
+    bottom: 0px;
+    text-align: center;
+     
+    
+    
+}
+
+#brad-intro h3{
+    padding-top: 40px;
+    margin: 0 auto;
+    font-size: 30px;
+    
+    text-align: center;
+}
+
+
+
+#brad-intro p{
+    text-align: justify;
+    font-size: 18px;
+}
+
+#brad-info img{
+    border-radius: 50%;
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+    box-shadow: 0 23px 40px rgb(0 0 0 / 20%);
+     
+    
+}
+
+#brad-text{
+    margin:0px 80px 0px 80px;
+    text-align: left !important;
+    /*float: right;*/
+    max-width: 500px;
+    font-weight: 600;
+   line-height: 1.713rem;
+   
+}
+
+
+#brad-watch{
+    text-decoration: none;
+    margin: auto;
+    width: max-content;
+    padding: 40px 0px;
+}
+ 
+
+.brad-watch-btn{
+    padding: 10px 160px;
+    color: rgb(255, 255, 255);
+    background-color: #DF292D;
+    border: 1px solid #DF292D;
+    border-radius: 3px;
+    text-align: center;
+    box-shadow: 0 2px 1px rgb(0 0 0 / 10%), 0 1px 3px rgb(0 0 0 / 30%);
+}
+
+.col-flex{
+    float: left;
+    /*margin-left: 30px;*/
+    width: 100%;
+    
+
+}
+
+.about-border{
+    border-bottom: 5px solid #DF292D;
+    max-width: 400px;
+     /*display: inline-block;*/
+     padding-bottom: 4px;
+}
+ 
+.about-brad{
+    padding-bottom: 50px;
+    padding-top: 30px;
+    text-align:center !important;
+
+}
+
+#follow-us{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 55px;
+    font-weight: lighter;
+    padding-top: 15px;
+    color: white;
+}
+
+#follow-section{
+    height: 29vh;
+    background-color: #DF292D;
+}
+
+#follow-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin : 20px 160px 0px 160px;
+}
+
+.fab{
+    font-size: 50px;
+    transition: font-size 0.2s ease-out;
+
+}
+ 
+.fa{
+    font-size: 50px;
+    margin: 100px 0px;
+}
+
+/*.fab:hover{
+    font-size: 53px;
+
+}*/
+
+#patron{
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.creator1{
+    background-color: white;
+    margin: 40px 80px 40px 10px;
+    height: max-content;
+    padding: 40px 40px 40px 40px;
+    width: 37%;
+    border-radius: 4.5px;
+    border-bottom: 4px solid #DF292D;
+}
+
+.creator{
+    background-color: white;
+    margin: 40px 10px 40px 10px;
+    height: max-content;
+    padding: 40px 40px 40px 40px;
+    width: 37%;
+    border-radius: 4.5px;
+    border-bottom: 4px solid #DF292D;
+}
+
+@media screen and (max-width: 780px){
+    .creator1, .creator{
+        width: 100%;
+            
+        }
+}
+
+#patron h4{
+    font-size: 30px;
+    padding-bottom: 1px;
+    padding-top: 0px;
+    /*text-align: justify;*/
+}
+
+.guest{
+    margin-top: 10px;
+    
+}
+
+.welcome-borders{
+    border-bottom: 5px solid #DF292D;
+    max-width: 30px;
+    padding-top: 1px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.patron-link{
+    margin-top: 21px;
+    width: 13em;
+    height: 5em;
+}
+
+.patron-paragraph{
+    padding-bottom: 20px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 100;
+}
+
+.email-cntct{
+    margin-top: 21px;
+    margin-bottom: 8px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.creator a{
+    color: rgb(41, 41, 235) !important;
+    margin-bottom: 500px;
+    font-weight: 200;
+    
+}
+
+#youtube-crash-course{
+    background-color: #DF292D;
+    text-align: center;
+    width: 100%;
+    color: white;
+    
+}
+
+.youtube-course{
+    /*display: flex;
+    flex-direction: row;*/ 
+    margin: 10px 72px;
+display: flex;
+flex-wrap: wrap;
+
+    /*display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));*/
+}
+
+#youtube-crash-course img{
+    width: 248px;
+    margin-bottom: -4px;
+    
+}
+/** make all crash courses 38px margin-right due to addition of their mrgin right to 70px margin right**/
+.crash-courses {
+    /*margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: 38px;*/
+    margin: 0 auto;
+    margin-bottom: 50px;
+     width: 250px;
+     background-color: white;  
+     text-align: center;
+border: 1px solid white;
+border-radius: 3px;
+}
+
+.crash-courses p{
+    background-color: white;
+    color: black;
+    
+    /*padding: 28px 28px; */
+    text-align: center; 
+    /*margin-right: 0px; 
+    margin-block-end: 0px;
+    margin-block-start: 0px;*/
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+   
+}
+
+#crash-course-detail{
+    margin-bottom: 50px;
+   padding-top: 70px;
+}
+
+#crash-course-detail h3{
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+}
+
+#crash-course-detail h4{
+    line-height: 1.4;
+    font-size: 1rem;
+}
+
+#suscriber-count{
+    background-color: grey;
+    /*height: 39vh;*/
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-top: -12px;
+    font-size: 42px;
+    margin-right: 0 ;
+    color: white;
+}
+
+#suscriber-count p{
+    
+    text-align: center;
+    display: flex;
+    margin: 20px auto;
+    font-weight: bold;
+    /*margin: 20px;
+    margin-bottom: 20px;*/
+
+}
+
+#suscriber-count > p > span{
+ display: flex;
+ font-size: 17px;
+ font-weight: 100;
+}
+
+
+.sus{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.sus-border{
+    border-bottom: 5px solid red;
+    width: 12px;
+    position: absolute;
+    height: 10px;
+    margin-left: -20px;
+    
+}
+
+#sponsor-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+     /*height: 50vh; */
+    background-color: white;
+}
+
+@media screen and (max-width: 980px){
+    #sponsor-section{
+      flex-wrap: wrap;
+            
+        }
+}
+
+@media screen and (max-width: 780px){
+    #sponsor-section{
+        flex-wrap: wrap-reverse;      
+        }
+}
+
+@media screen and (max-width: 780px){
+    #sponsor-email, #sponsor-term{
+        width: 100%;
+        padding: 0px 10%;    
+        }
+}
+
+#sponsor-sub-email{
+    border: 1px solid black;
+    border-right: 3px solid red !important;
+    border-width: 0px;
+    border-radius: 0 5px 5px 0px ! important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    margin: 90px 20px;
+    background-color: white;
+}
+
+#sponsor-sub-email p{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.125rem;
+    line-height: 1.688rem;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+#sponsor-term{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 0px 0px 35px;
+    margin: 90px 0px 90px 0px;
+    text-align: left;
+}
+
+#sponsor-email{
+    background-color: rgb(189, 189, 189);
+    width: 100%;
+    
+}
+
+.border-bottom-2{
+    border-bottom: 6px solid red;
+    width: 20px;
+    margin: 22px 0px;
+}
+
+.sponsor-img{
+    width: 160px;
+    height: 140px;
+}
+
+#sponsor-term h2{
+    font-size: 29px;
+    font-weight: 650;
+}
+
+#sponsor-term p{
+    width: 90%;
+    font-size: 20px;
+}
+
+.ree{
+    color: black !important;
+    background-color: white;
+    display: flex;
+    margin-top: 0;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around; 
+     margin-top: 70px;
+    flex-direction: row;
+}
+
+.fra{
+    font-size: 27px !important;
+    color: #666666 !important;
+}
+
+.footer-img{
+    opacity: 0.5;
+    max-height: 40px;
+    padding-right: 580px;
+}
+
+#social-lnk{
+    display: flex;
+    margin-right: 40px; 
+    justify-content: space-between ;
+    /*padding-left: 100px;*/    
+}
+
+@media screen and (max-width: 780px){
+    #social-lnk{
+       padding-left: 0px;
+            
+        }
+}
+@media screen and (max-width: 780px){
+    .footer-img{
+       padding-right: 40%; 
+        }
+}
+
+#social-lnk a{
+    display: flex;
+    justify-content: space-evenly;
+    /*padding-right: 20px;*/
+}
+
+.pad{
+    padding-right: 20px;
+}
+
+
+
+#foo-p{
+    display: block !important;
+    text-align: center;
+    margin: 50px auto;
+    padding-top: 60px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    letter-spacing: 0.0635rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #666666;
+}
+
+ 
